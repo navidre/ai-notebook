@@ -18,5 +18,9 @@ Please follow the instructions printed and paste the address of the Jupyter Note
 # (Optional) Shipping image to DockerHub
 In case you made any changes and wanted to ship the new image to DockerHub, type the following command in terminal (Change "navidre" to your own DockerHub username):
 
+```
+docker push navidre/ai-notebook
+```
+
 # (Optional) 
 

@@ -22,5 +22,3 @@ In case you made any changes and wanted to ship the new image to DockerHub, type
 docker push navidre/ai-notebook
 ```
 
-# (Optional) 
-

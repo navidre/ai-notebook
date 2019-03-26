@@ -1,9 +1,18 @@
-[![docker pulls](https://img.shields.io/docker/pulls/jupyter/tensorflow-notebook.svg)](https://hub.docker.com/r/jupyter/tensorflow-notebook/) [![docker stars](https://img.shields.io/docker/stars/jupyter/tensorflow-notebook.svg)](https://hub.docker.com/r/jupyter/tensorflow-notebook/) [![image metadata](https://images.microbadger.com/badges/image/jupyter/tensorflow-notebook.svg)](https://microbadger.com/images/jupyter/tensorflow-notebook "jupyter/tensorflow-notebook image metadata")
+# Running Dockerfile Locally
+Please follow the following steps to work with the Jupyter Notebook locally on your machine.
 
-# Jupyter Notebook Deep Learning Stack
+1. Building the local Dockerfile: 
 
-Please visit the documentation site for help using and contributing to this image and others.
+docker build -t navidre/ai-notebook .
 
-* [Jupyter Docker Stacks on ReadTheDocs](http://jupyter-docker-stacks.readthedocs.io/en/latest/index.html)
-* [Selecting an Image :: Core Stacks :: jupyter/tensorflow-notebook](http://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-tensorflow-notebook)
-* [Image Specifics :: Tensorflow](http://jupyter-docker-stacks.readthedocs.io/en/latest/using/specifics.html#tensorflow)
+2. Running the local Docker of Jupyter Notebook:
+
+docker run -it --rm -p 8888:8888 -t navidre/ai-notebook
+
+Please follow the instructions printed and paste the address of the Jupyter Notebook in a browser to start.
+
+# (Optional) Shipping image to DockerHub
+In case you made any changes and wanted to ship the new image to DockerHub, type the following command in terminal (Change "navidre" to your own DockerHub username):
+
+# (Optional) 
+

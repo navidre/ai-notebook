@@ -1,3 +1,5 @@
+[![docker pulls](https://img.shields.io/docker/pulls/navidre/ai-notebook.svg)](https://hub.docker.com/r/navidre/ai-notebook/) 
+
 # Running Dockerfile Locally
 Please follow the following steps to work with the Jupyter Notebook locally on your machine. Please replace "navidre" with your own DockerHub username.
 
